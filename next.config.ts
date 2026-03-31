@@ -13,9 +13,9 @@ export default withSentryConfig(nextConfig, {
   // For all available options, see:
   // https://www.npmjs.com/package/@sentry/webpack-plugin#options
 
-  org: "timbre-m1",
+  org: "enra-doo-jn",
 
-  project: "timbre-app",
+  project: "resonance-app",
 
   // Only print logs for uploading source maps in CI
   silent: !process.env.CI,
