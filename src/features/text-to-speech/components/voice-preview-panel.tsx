@@ -18,8 +18,15 @@ type VoicePreviewPanelVoice = {
 };
 
 function formatTime(seconds: number): string {
-  return format(new Date(seconds * 1000), "mm:ss");
-};
+  if (!seconds || isNaN(seconds)) return "00:00";
+
+  const mins = Math.floor(seconds / 60);
+  const secs = Math.floor(seconds % 60);
+
+  return `${mins.toString().padStart(2, "0")}:${secs
+    .toString()
+    .padStart(2, "0")}`;
+}
 
 export function VoicePreviewPanel({
   audioUrl,
@@ -102,7 +109,7 @@ export function VoicePreviewPanel({
         <p className="text-3xl font-semibold tabular-nums tracking-tight text-foreground">
           {formatTime(currentTime)}&nbsp;
           <span className="text-muted-foreground">
-            /&nbsp;{formatTime(duration)}
+            /&nbsp;{formatTime(duration || 0)}
           </span>
         </p>
        </div>
