@@ -1,6 +1,6 @@
 # 🎵 **Timbre AI – AI-Powered Text-to-Speech and Voice Cloning SaaS**
 
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Vercel-green?logo=vercel)](#)  [![GitHub Repo](https://img.shields.io/badge/📂_GitHub_Repo-black?logo=github)](https://github.com/anuj-singal/Timber_AI)
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Vercel-green?logo=vercel)](https://timbre-ai.vercel.app/)  [![GitHub Repo](https://img.shields.io/badge/📂_GitHub_Repo-black?logo=github)](https://github.com/anuj-singal/Timber_AI)
 
 ---
 
@@ -12,7 +12,7 @@ Timbre AI allows users to **generate realistic speech, clone voices instantly, a
 ## 🗣️ Live Demo
 
 **Try it here:**  
-👉 [https://timbre-ai.vercel.app/](#)
+👉 [https://timbre-ai.vercel.app/](https://timbre-ai.vercel.app/)
 
 
 <p align="center">
