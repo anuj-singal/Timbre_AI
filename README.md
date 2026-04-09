@@ -12,7 +12,7 @@ Timbre AI allows users to **generate realistic speech, clone voices instantly, a
 ## 🗣️ Live Demo
 
 **Try it here:**  
-👉 [Demo Link](#)
+👉 [https://timbre-ai.vercel.app/](#)
 
 
 <p align="center">
